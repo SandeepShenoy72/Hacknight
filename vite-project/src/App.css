@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* margin: 0 auto;
+  padding: 2rem; */
   text-align: center;
 }
 
@@ -39,4 +39,38 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* .intro-example{
+  height: 600px;
+} */
+
+.container-bar li {
+   display: inline-block;
+  margin-right: 40px;  
+}
+.container-bar{
+  margin-left: 1050px;
+  font-size: x-large;
+}
+
+ .nav-bar{
+  display: flex;
+  width:100vw;
+  align-items: center;
+  height:100px;
+  top:0;
+  background-color: grey;
+  position: fixed;
+  z-index: 100;
+} 
+
+.header{
+   padding-left: 35px;
+  /*display: flex; */
+  /* align-items: center; */
+}
+
+ul li a{
+  color: black;
 }
